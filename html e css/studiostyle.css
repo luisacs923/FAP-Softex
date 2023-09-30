@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    font-family:'Inter Tight', sans-serif;
+}
+.nav-menu{
+    display: flex;
+    flex: row wrap;
+    align-items: center;
+    background-color:  rgb(178,213,233);
+}
+.menu{
+    margin-right: 10%;
+    width: 60%;
+    text-align: right;
+}
+.menu a{
+    text-decoration: none;
+    padding: 5px;
+    font-family:'Inter Tight', sans-serif;
+}
+.logo{
+    padding-right: 1%;
+    margin-left: 10%;
+    width: 20%;
+    border: 1.5px solid black;
+    text-align: right;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 100;
+    color:
+}
+.logo h1{
+    font-family: 'Big Shoulders Display', cursive;
+}
+nav a{
+    text-decoration: none;
+    color:  rgba(3, 59, 74, 0.768);
+}
+.menu a:hover{
+    color: white;
+    font-weight: bold;
+}
+#contato{
+    background-color: rgb(111, 170, 204);
+    border-radius: 5px;
+    text-decoration: none;
+    color:  rgba(3, 59, 74, 0.768);
+}
+#contato:hover{
+    background-color: rgba(3, 59, 74, 0.768);
+}
+.header{
+    display: flex;
+    flex: row wrap;
+    background-color: rgb(178,213,233);
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+}
+.headline{
+    margin-left: 10%;
+    width: 40%;
+}
+.img-headline{
+    margin-right: 10%;
+    width: 40%;
+    b
+}
+p{
+    color:rgba(3, 59, 74, 0.768);
+    font-size: smaller;
+    text-align: justify;
+}
+h2{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 50px;
+    color:white;
+}
