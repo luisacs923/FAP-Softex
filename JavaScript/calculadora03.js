@@ -56,5 +56,6 @@ function calculadora2(valor1,valor2,operador){
 
 let resultado = (valor1,valor2,operador) => {
 
-    "O resultado é" + eval(`${valor1} ${operador} ${valor2}`);
+    return "O resultado é " + eval(`${valor1} ${operador} ${valor2}`);
+
 }
